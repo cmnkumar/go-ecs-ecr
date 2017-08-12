@@ -7,4 +7,5 @@ machine:
     SHORT_HASH: 'echo $CIRCLE_SHA1'
 test:
   override:
+    - echo $CIRCLE_SHA1
     - echo "done"
