@@ -4,4 +4,7 @@ machine:
   services:
     - docker
   environment:
-    SHORT_HASH: 'echo $CIRCLE_SHA1
+    SHORT_HASH: 'echo $CIRCLE_SHA1'
+test:
+  override:
+    - echo "done"
