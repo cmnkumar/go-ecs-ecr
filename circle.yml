@@ -3,9 +3,10 @@ machine:
     - docker
 
 dependencies:
-  post:
+#  post:
 #    - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/go-sample-webapp:$CIRCLE_SHA1 .
-      echo '$AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/go-sample-webapp:$CIRCLE_SHA1'
+   commands: 
+     echo '$AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/go-sample-webapp:$CIRCLE_SHA1'
 test:
   override:
     - echo $CIRCLE_SHA1
