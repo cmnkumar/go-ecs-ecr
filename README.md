@@ -2,7 +2,7 @@
 
 This is a "Hello World" Go webapp that provides an example of how to build and test a Dockerized 
 web application on [CircleCI](https://circleci.com), push to an AWS EC2 Container Registry, and then deploy to an AWS 
-EC2 Container Service cluster.
+EC2 Container Service cluster.m
 
 ## Prerequisites
 
