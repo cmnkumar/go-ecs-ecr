@@ -8,7 +8,7 @@ import(
 func mainHandler() http.HandlerFunc{
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request){
 		fmt.Fprintf(w, "Hello Worldd c!d ")	
-		AWS_ACCOUNT_ID="12345678012"
+		AWS_ACCOUNT_ID=12345678012
 	})
 }
 
