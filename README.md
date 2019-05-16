@@ -1,6 +1,6 @@
 # Deploy to AWS ECS from ECR via CircleCI (Example Project)
 
-raavi had a little lamp
+sam sam had a little lamp
 
 This is a "Hello World" Go webapp that provides an example of how to build and test a Dockerized 
 web application on [CircleCI](https://circleci.com), push to an AWS EC2 Container Registry, and then deploy to an AWS 
